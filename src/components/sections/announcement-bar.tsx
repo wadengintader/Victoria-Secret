@@ -53,7 +53,7 @@ const AnnouncementBar = () => {
                 className="w-3.5 h-3.5 text-[#000000] animate-pulse shrink-0" 
                 strokeWidth={2.5}
               />
-              <p className="text-[#000000] text-[12px] font-bold tracking-tight text-center">
+              <p className="text-[#000000] text-[11px] font-bold tracking-tight text-center">
                 You have{" "}
                 <span className="text-[#000000] tabular-nums font-black">
                   {formatTime(timeLeft)}
