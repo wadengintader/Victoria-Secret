@@ -40,7 +40,7 @@ const steps: Step[] = [
 export default function InstructionSteps() {
   return (
     <section className="relative w-full max-w-md mx-auto px-4 sm:px-5 mb-4 mt-3">
-      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#f9e2e7]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#f9e2e7]/50 hover:scale-[1.01]">
+      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#000000]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#000000]/50 hover:scale-[1.01]">
         <div className="absolute inset-0 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden pointer-events-none">
           <img
             src="https://i.imgur.com/RT2JLvZ.jpeg"
@@ -52,7 +52,7 @@ export default function InstructionSteps() {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -left-full group-hover/box:animate-shine pointer-events-none" />
 
         <div className="absolute -top-4 -right-4 w-32 h-32 bg-[#006241]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#182C54]/8 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#000000]/8 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 space-y-0 sm:space-y-1">
           {steps.map((step, index) => (
