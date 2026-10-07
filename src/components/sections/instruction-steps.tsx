@@ -33,7 +33,7 @@ const steps: Step[] = [
   },
   {
     icon: <Unlock className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
-    text: "Unlock your LOWES Rewards",
+    text: "Unlock your VICTORIA"S SECRET Rewards",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function InstructionSteps() {
       <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#012169]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#012169]/50 hover:scale-[1.01]">
         <div className="absolute inset-0 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden pointer-events-none">
           <img
-            src="https://i.imgur.com/TDU3kg1.jpeg"
+            src="https://i.imgur.com/RT2JLvZ.jpeg"
             alt=""
             className="w-full h-full object-cover opacity-10"
           />
