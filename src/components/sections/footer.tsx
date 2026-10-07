@@ -10,7 +10,7 @@ const Footer = () => {
       {/* Social Media Icons */}
       <div className="flex items-center justify-center gap-1.5 mb-2">
           <a 
-            href="https://www.facebook.com/lowes/" 
+            href="https://www.facebook.com/victoriassecret/" 
             target="_blank"
             rel="noopener noreferrer"
             className="w-7 h-7 rounded-full bg-[#f9e2e7] hover:bg-[#f9e2e7] flex items-center justify-center text-black hover:scale-110 transition-transform duration-300"
@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
 
           <a 
-            href="https://www.instagram.com/loweshomeimprovement/?hl=en"
+            href="https://www.instagram.com/victoriassecret/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
             className="w-7 h-7 rounded-full bg-[#f9e2e7] hover:bg-[#f9e2e7] flex items-center justify-center text-black hover:scale-110 transition-transform duration-300"
@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
 
           <a 
-            href="https://linkedin.com/company/lowe's-home-improvement" 
+            href="https://www.linkedin.com/company/victoria's-secret" 
             target="_blank"
             rel="noopener noreferrer"
             className="w-7 h-7 rounded-full bg-[#f9e2e7] hover:bg-[#f9e2e7] flex items-center justify-center text-black hover:scale-110 transition-transform duration-300"
