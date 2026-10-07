@@ -50,12 +50,12 @@ const AnnouncementBar = () => {
         <div className="flex items-center justify-center gap-3">
             <div className="flex items-center justify-center gap-2 text-center">
               <Clock 
-                className="w-3.5 h-3.5 text-[#ffffff] animate-pulse shrink-0" 
+                className="w-3.5 h-3.5 text-[#000000] animate-pulse shrink-0" 
                 strokeWidth={2.5}
               />
-              <p className="text-[#ffffff] text-[12px] font-bold tracking-tight text-center">
+              <p className="text-[#000000] text-[12px] font-bold tracking-tight text-center">
                 You have{" "}
-                <span className="text-[#ffffff] tabular-nums font-black">
+                <span className="text-[#000000] tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
                 minutes left to unlock your Victoria's Secret reward
@@ -65,8 +65,8 @@ const AnnouncementBar = () => {
 
         {/* Bottom Row: Subtext with decorative lines */}
         <div className="flex items-center gap-2 mt-0.5">
-          <div className="h-[1px] w-4 bg-[#ffffff]"></div>
-          <p className="text-[#ffffff] text-[9px] uppercase tracking-[0.15em] font-bold">
+          <div className="h-[1px] w-4 bg-[#000000]"></div>
+          <p className="text-[#000000] text-[9px] uppercase tracking-[0.15em] font-bold">
             Complete the steps before access expires
           </p>
           <div className="h-[1px] w-4 bg-[#ffffff]"></div>
