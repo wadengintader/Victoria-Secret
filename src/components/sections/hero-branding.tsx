@@ -60,11 +60,11 @@ const HeroBranding = () => {
           {/* Main Headline */}
         <div className="flex flex-col items-center gap-0.5 px-2">
         <div className="relative">
-            <h1 className="text-[18.2px] md:text-[23.2px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
+            <h1 className="text-[18px] md:text-[23px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#000000]">Unlock</span>
             <span className="text-[#000000]">Victoria's Secret Rewards</span>
             <div className="flex items-center -ml-1">
-              <Gift className="w-6 h-6 text-[#000000] fill-transparent" />
+              <Gift className="w-4 h-4 text-[#000000] fill-transparent" />
             </div>
           </h1>
         </div>
